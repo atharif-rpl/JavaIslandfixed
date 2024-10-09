@@ -1,0 +1,43 @@
+.bg-hero{
+  background-image: url(Images/bg-hero.png);
+  background-size: cover;
+  background-position: center;
+}
+.javaisland{
+    background: #D2FF72;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 200px #D2FF72;
+}
+.fadeinup{
+    animation: fadeInDown 1s ease-in-out forwards;
+}
+.fadeindown{
+    animation: fadeInUp 1s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(70px);
+        visibility: visible;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        visibility: visible;
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-70px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
